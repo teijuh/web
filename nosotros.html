@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nosotros | Sistema de Justificantes</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+
+        body {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 240px;
+            background-color: #2e7d32;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+
+        .sidebar h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            background-color: white;
+            color: #2e7d32;
+            margin-bottom: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #1b5e20;
+            color: white;
+        }
+
+        .sidebar a.toggle {
+            cursor: pointer;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            font-size: 24px;
+            color: #a5d6a7;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+            color: #66bb6a;
+        }
+
+        .footer-text {
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .main {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .main-content {
+            max-width: 1200px;
+            background-color: white;
+            padding: 60px;
+            border-radius: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 100%;
+        }
+
+        .main h1 {
+            color: #2e7d32;
+            margin-bottom: 20px;
+        }
+
+        .main p {
+            color: #444;
+            font-size: 18px;
+        }
+
+        .conalep-logo {
+            max-width: 220px;
+            margin: 20px 0;
+        }
+
+        #listaCarreras {
+            display: none;
+            margin-top: -5px;
+            padding: 10px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            text-align: left;
+            font-size: 14px;
+        }
+
+        #listaCarreras ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        #listaCarreras li {
+            margin-bottom: 6px;
+            color: #2e7d32;
+        }
+
+        #listaCarreras a {
+            color: #2e7d32;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        #listaCarreras a:hover {
+            text-decoration: underline;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <div>
+        <h2> MENU INICIO</h2>
+        <a href="principal.php">INICIO</a>
+        <a href="nosotros.html">SOBRE NOSOTROS</a>
+        <a href="carreras.html">CARRERAS</a>
+        <a href="index_admin.php">INICIAR COMO ADMINISTRADOR</a>
+        <a href="index_alumno.php">INICIAR COMO ALUMNO</a>
+    </div>
+    <div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+        </div>
+        <div class="footer-text">CONALEP CUAUTLA #173</div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="main-content">
+        <h1>¿QUIÉNES SOMOS?</h1>
+        <img src="img/conaleplogo.png" alt="Logotipo CONALEP" class="conalep-logo">
+        <p>
+            Somos un equipo comprometido con el desarrollo académico y personal de nuestros estudiantes, brindando soluciones tecnológicas para facilitar los trámites escolares.
+        </p>
+        <p>
+            En CONALEP Cuautla #173, promovemos la responsabilidad, la innovación y el trabajo colaborativo.
+        </p>
+    </div>
+
+    <div class="container mt-5">
+        <section class="mb-4 p-4 bg-white rounded shadow">
+            <h2>Datos de Contacto</h2>
+            <p><strong>Dirección:</strong> Privada Lázaro Cárdenas No. 4-C, Col. Eusebio Jáuregui, Cuautla, Morelos, C.P. 62749</p>
+            <p><strong>Teléfonos:</strong> (01 735) 3534242 / 3534200</p>
+            <p><strong>Correo Electrónico:</strong> <a href="mailto:contacto@mor.conalep.edu.mx">contacto@mor.conalep.edu.mx</a></p>
+        </section>
+
+        <section class="mb-4 p-4 bg-white rounded shadow">
+            <h2>Ubicación en Google Maps</h2>
+            <div class="map-container mt-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.224058390702!2d-99.1393425!3d19.4400264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92b349c4709%3A0xa8244c1fa6976f1e!2sPalacio%20de%20Bellas%20Artes!5e0!3m2!1ses-419!2smx!4v1680892164196!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+</html>

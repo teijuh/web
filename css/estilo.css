@@ -1,0 +1,262 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e0; /* Fondo verde suave */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #388E3C; /* Verde oscuro para el encabezado */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #A5D6A7; /* Verde claro */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 700px;
+    border: 2px solid #81C784; /* Borde verde medio */
+}
+
+h2 {
+    text-align: center;
+    color: #2C6B2F; /* Verde más oscuro */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2C6B2F;
+}
+
+input[type="text"], input[type="date"], textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #81C784;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #388E3C; /* Verde oscuro para el botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Estilo básico para el diseño */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e0; /* Fondo verde suave */
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #81C784; /* Línea de separación verde */
+}
+
+.contenedor {
+    text-align: center;
+    background-color: #388E3C;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.layout1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedormenu {
+    background-color: #A5D6A7;
+    padding: 15px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #388E3C;
+    font-size: 1.1em;
+}
+
+ul li a:hover {
+    color: #2C6B2F;
+}
+
+.contenido {
+    background-color: #A5D6A7;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #388E3C;
+}
+
+input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #81C784;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #388E3C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2C6B2F;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #388E3C;
+    color: white;
+}
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4CAF50; /* Banda verde */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+}
+
+.login-container label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Botón verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Efecto hover */
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
